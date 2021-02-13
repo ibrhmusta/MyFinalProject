@@ -5,16 +5,16 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Concrete.InMemory
+namespace DataAccess.Concrete.EntityFramework
 {
-    public class InMemoryCategoryDal : ICategoryDal
+    public class EfCategoryDal : ICategoryDal
     {
-        public void Add(Category category)
+        public void Add(Category entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Category category)
+        public void Delete(Category entity)
         {
             throw new NotImplementedException();
         }
@@ -24,17 +24,12 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
-        public List<Category> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Category> GetAll(Expression<Func<Category, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Category category)
+        public void Update(Category entity)
         {
             throw new NotImplementedException();
         }
