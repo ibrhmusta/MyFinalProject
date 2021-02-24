@@ -12,6 +12,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             ProductTest();
+            //CategoryTest();
         }
 
         private static void CategoryTest()
